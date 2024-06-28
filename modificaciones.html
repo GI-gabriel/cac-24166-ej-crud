@@ -134,7 +134,7 @@
       const file = event.target.files[0];
       imagenSeleccionada = file;
       imagenUrlTemp = URL.createObjectURL(file); // Crea una URL temporal para la vista previa
-      const imagenVistaPrevia = document.getElementById('imagen-vista - previa');
+      const imagenVistaPrevia = document.getElementById('imagen-vista-previa');
       imagenVistaPrevia.src = imagenUrlTemp;
       imagenVistaPrevia.style.display = 'block';
     }
